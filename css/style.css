@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(33, 32, 41);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.not_completed {
+    text-decoration: none;
+}
+
+.btn-orange {
+    background-color: rgb(212, 143, 15);
+}
+
+.btn-red {
+    background-color: rgb(183, 57, 57);
+}
+
+.btn-green {
+    background-color: rgb(13, 155, 13);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    color: white;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.input {
+    padding: 20px;
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.input:hover {
+    box-shadow: 1px 1px 10px  rgb(154, 154, 251);
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    width: 600px;
+    background-color: rgb(33, 32, 41);
+    border: 1px solid rgb(110, 110, 251);
+    color: rgb(110, 110, 251);
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: background-color 0.4s;  
+}
+
+.button:hover {
+ background-color: rgb(110, 110, 251);
+ color: rgb(33, 32, 41);
+}
+
+.list {
+   background-color: white; 
+   width: 600px;
+   border-radius: 10px;
+   padding: 20px;
+   font-size: 16px;
+   letter-spacing: 1px;
+   color: rgb(71, 71, 71);
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: space-between;
+    border: 1px solid rgb(215, 214, 214);
+    margin-bottom: 20px
+}
+
+.list li:last-child {
+    margin-bottom: 0;
+} 
+
+.note-button {
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.note-button:hover {
+    opacity: 0.8;
+}
